@@ -62,8 +62,14 @@ li{
   margin-left: 40px;
 }
 
+.flex-header li a{
+  font-weight: 700;
+  color: #555555;
+}
+
 #mainvisual img{
   margin-top: 90px;
+  margin-bottom: 60px;
   width: 100%;
   height: 700px;
   object-fit: cover;
@@ -96,7 +102,7 @@ li{
 
 .flex-text .right-text{
   padding: 15px;
-  background: linear-gradient(90deg,#ea6907, #eacc07);
+  background: linear-gradient(90deg,#ea6907, #f8d90c);
   border-radius: 50px;
 }
 
@@ -108,4 +114,71 @@ li{
 .flex-text .right-text a{
   color: antiquewhite;
   letter-spacing: 3px;
+}
+
+#number{
+  background: radial-gradient(#ea6907, #ebd324);
+  color: antiquewhite;
+}
+
+#number .flex-number{
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 60px;
+  padding: 60px 100px;
+}
+
+#number .title{
+  margin-bottom: 30px;
+  font-size: xx-large;
+  font-weight: 700;
+}
+
+#number p{
+  font-weight: 900;
+  margin-bottom: 60px;
+}
+
+#number a{
+  color: #ea6907;
+  background-color: antiquewhite;
+  padding: 15px 30px;
+  border-radius: 5px;
+}
+
+#number a::after{
+  content: "　→";
+}
+
+#number .flex-number2{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.left-number2{
+  margin-right: 60px;
+}
+
+.left-number2 h3,
+.right-number2 h3{
+  margin-bottom: 20px;
+}
+
+.left-number2 h2,
+.right-number2 h2{
+  margin-bottom: 10px;
+}
+
+.left-number2 span,
+.right-number2 span{
+  font-weight: bold;
+  font-size: 50px;
+}
+
+.left-number2,
+.right-number2{
+  padding-top: 40px;
+  padding-left: 30px;
+  border-left: solid 1px #fff;
 }
